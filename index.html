@@ -3,12 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Riddhi Sibal | Software Developer</title>
-
+<title>Riddhi Sibal – Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,518 +13,286 @@
 <canvas id="bg"></canvas>
 
 <nav>
-<ul>
-<li><a href="#hero">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#timeline">Experience</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#resume">Resume</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#timeline">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
 <main>
 
-<!-- HERO -->
-<!-- HERO - FLOATING COSMIC IDENTITY -->
-<!-- HERO - FINAL COSMIC COMMAND PANEL -->
-<!-- HERO - DUAL MODULE COSMIC -->
-<section id="hero">
-<div class="hero-dual">
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-dual">
 
-  <!-- LEFT: TEXT PANEL -->
-  <div class="panel hero-panel">
+      <div class="panel hero-panel">
+        <div class="uae-badge">🇦🇪 Raised in Abu Dhabi, UAE</div>
+        <div class="identity-label">IDENTITY SIGNAL</div>
 
-    <div class="identity-label">
-    AIR TRAFFIC CONTROL SYSTEM
-    </div>>
+        <h1 class="cosmic-title">
+          <span>R</span><span>I</span><span>D</span><span>D</span><span>H</span><span>I</span>
+          <br>
+          <span>S</span><span>I</span><span>B</span><span>A</span><span>L</span>
+        </h1>
 
-    <h1 class="cosmic-title">
-    <span>R</span><span>I</span><span>D</span><span>D</span><span>H</span><span>I</span>
-    <br>
-    <span>S</span><span>I</span><span>B</span><span>A</span><span>L</span>
-    </h1>
+        <p class="hero-role">
+          CSE Student · AWS Cloud Practitioner · UI/UX Designer · Data Enthusiast
+        </p>
 
-    <p class="hero-role">
-    B.Tech CSE Student · Software Developer · AWS Cloud Practitioner · Data Analytics Enthusiast
-    </p>
+        <p class="hero-desc">
+          Building innovative technology — from fraud detection engines to data-driven tools. Passionate about software, AI, and cloud.
+        </p>
 
-   <p class="hero-desc">
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">VIEW PROJECTS</a>
+          <a class="btn ghost" href="#contact">CONTACT</a>
+        </div>
+      </div>
 
-   Origin Station: Abu Dhabi, UAE 🇦🇪
+      <div class="portrait-module">
+        <div class="portrait-orb">
+          <!-- Replace with your photo: <img src="assets/photo.jpg" class="hero-img"> -->
+          <div class="hero-img-placeholder">RS</div>
+        </div>
+        <div class="orb-label">COMMANDER PROFILE</div>
+      </div>
 
-   <br><br>
+    </div>
+  </section>
 
-  Current Station: Dehradun, India 🇮🇳
+  <div id="orb"></div>
+  <div id="trail-container"></div>
 
-  <br><br>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="panel about-panel">
+      <h2>About Me</h2>
+      <div class="about-console">
+        <div class="uae-highlight">
+          🇦🇪 Grew up in <strong>Abu Dhabi, UAE</strong> — a multicultural city that shaped my global perspective and drive to build for diverse communities. Completed both 10th and 12th from CBSE schools in Abu Dhabi before moving to India for B.Tech.
+        </div>
+        <p id="about-text"></p>
+      </div>
+    </div>
+  </section>
 
-  Navigating a journey from the UAE to India while building expertise in software development, cloud computing, and data analytics.
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="skills-title">SKILLS</h2>
+    <div class="skill-field" id="skillField">
 
-  </p>
+      <div class="skill-btn">C</div>
+      <div class="skill-btn">C++</div>
+      <div class="skill-btn">Python</div>
+      <div class="skill-btn">Java</div>
+      <div class="skill-btn">SQL</div>
+      <div class="skill-btn">DSA</div>
+      <div class="skill-btn">OOP</div>
 
-    <div class="hero-buttons">
-      <a class="btn primary" href="#projects">MISSION CONTROL</a>
-      <a class="btn ghost" href="#contact">COMMUNICATIONS</a>
+      <div class="skill-btn">HTML5</div>
+      <div class="skill-btn">CSS3</div>
+      <div class="skill-btn">Power BI</div>
+      <div class="skill-btn">Pandas</div>
+      <div class="skill-btn">Matplotlib</div>
+
+      <div class="skill-btn">AWS Cloud</div>
+      <div class="skill-btn">IAM</div>
+      <div class="skill-btn">Amazon S3</div>
+      <div class="skill-btn">Lambda</div>
+      <div class="skill-btn">AWS Security</div>
+      <div class="skill-btn">AWS GenAI</div>
+
+      <div class="skill-btn">UI Design</div>
+      <div class="skill-btn">UX Research</div>
+      <div class="skill-btn">Figma</div>
+
+      <div class="skill-btn">Git</div>
+      <div class="skill-btn">GitHub</div>
+      <div class="skill-btn">VS Code</div>
+      <div class="skill-btn">MySQL</div>
+
+      <div class="skill-btn">Leadership</div>
+      <div class="skill-btn">Communication</div>
+      <div class="skill-btn">Analytical Thinking</div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="proj-title">PROJECTS</h2>
+
+    <div class="wheel-wrapper">
+      <div class="wheel">
+
+        <!-- CARD 1 -->
+        <div class="card">
+          <h3>Identity Verification System</h3>
+          <div class="mini">
+            <p>Rule-based Java system to validate identity documents with GUI and database integration.</p>
+            <div class="actions">
+              <a href="https://github.com/RidhimaTomar/JAVA-PROJECT" target="_blank">View Code ↗</a>
+              <button class="view-more" data-modal="modal1" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+          <h3>Fraud Net</h3>
+          <div class="mini">
+            <p>Telecom fraud detection using C++ hash maps and graph structures.</p>
+            <div class="actions">
+              <a href="https://github.com/Swastika23214/Fraud_Net" target="_blank">View Code ↗</a>
+              <button class="view-more" data-modal="modal2" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+          <h3>Healthcare Assistant</h3>
+          <div class="mini">
+            <p>Python CLI tool for daily health tracking and report generation.</p>
+            <div class="actions">
+              <a href="https://github.com/Swastika23214/Healthcare_Assistant" target="_blank">View Code ↗</a>
+              <button class="view-more" data-modal="modal3" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+          <h3>Diwali Sales Analysis</h3>
+          <div class="mini">
+            <p>EDA on festive season sales data with rich visualizations.</p>
+            <div class="actions">
+              <a href="https://github.com/rids5/Diwali-Sales-Data-Analysis" target="_blank">View Code ↗</a>
+              <button class="view-more" data-modal="modal4" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 
-  </div>
-
-  <!-- RIGHT: FLOATING PORTRAIT -->
-  <div class="portrait-module">
-
-    <div class="portrait-orb">
-      <img src="img.jpeg" class="hero-img">
+    <!-- MODALS -->
+    <div class="modal" id="modal1">
+      <div class="modal-content modal-card">
+        <button class="modal-close" type="button">&times;</button>
+        <h2>Identity Verification System</h2>
+        <p>A Java-based document verification system that validates identity documents using predefined rule-based authentication criteria. Features automated document authentication, approval/rejection engine, and Java Swing GUI with MySQL database integration.</p>
+        <p>Demonstrates OOP principles, GUI design, and database connectivity with reduced manual verification time.</p>
+        <p><b>Tech Stack:</b> Java, OOP, Java Swing, MySQL, File Handling</p>
+        <p><a href="https://github.com/RidhimaTomar/JAVA-PROJECT" target="_blank">View Code ↗</a></p>
+      </div>
     </div>
 
-    <div class="orb-label">FLIGHT STATUS : ONLINE ✈️</div>
-
-  </div>
-
-</div>
-</section>
-
-
-<div id="orb"></div>
-<div id="trail-container"></div>
-
-<!-- ABOUT -->
-<section id="about">
-<div class="panel about-panel">
-
-<h2>About Me</h2>
-
-<div class="about-console">
-
-  <p id="about-text"></p>
-
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-
-  <h2 class="skills-title">SKILLS</h2>
-  <div class="skill-field" id="skillField">
-
-    <!-- SKILL BUTTONS -->
-    <div class="skill-btn">Java</div>
-    <div class="skill-btn">C++</div>
-    <div class="skill-btn">Python</div>
-    <div class="skill-btn">SQL</div>
-    <div class="skill-btn">AWS</div>
-    <div class="skill-btn">Power BI</div>
-    <div class="skill-btn">Git</div>
-    <div class="skill-btn">GitHub</div>
-    <div class="skill-btn">DSA</div>
-    <div class="skill-btn">OOP</div>
-    <div class="skill-btn">MySQL</div>
-    <div class="skill-btn">Linux</div>
-    <div class="skill-btn">HTML</div>
-    <div class="skill-btn">CSS</div>
-    <div class="skill-btn">JavaScript</div>
-    <div class="skill-btn">Problem Solving</div>
-    <div class="skill-btn">Leadership</div>
-    <div class="skill-btn">Communication</div>
-
-  </div>
-
-</section>
-<!-- skill end -->
-<div class="wheel">
-
-<!-- CARD 1 -->
-
-<div class="card">
-  <h3>Mission 01 : Identity Verification System</h3>
-
-  <div class="mini">
-    <p>Rule-based document validation system for verifying identity records and detecting invalid submissions.</p>
-    <div class="actions">
-      <a href="YOUR_GITHUB_LINK_1" target="_blank">View Code ↗</a>
-      <button class="view-more" data-modal="modal1" type="button">View More</button>
-    </div>
-  </div>
-</div>
-
-<!-- CARD 2 -->
-
-<div class="card">
-  <h3>Mission 02 : Fraud Net</h3>
-
-  <div class="mini">
-    <p>Telecom fraud detection system that identifies suspicious call patterns using intelligent rule-based analysis.</p>
-    <div class="actions">
-      <a href="YOUR_GITHUB_LINK_2" target="_blank">View Code ↗</a>
-      <button class="view-more" data-modal="modal2" type="button">View More</button>
-    </div>
-  </div>
-</div>
-
-<!-- CARD 3 -->
-
-<div class="card">
-  <h3>Mission 03 : Healthcare Assistant</h3>
-
-  <div class="mini">
-    <p>Healthcare support application designed to improve accessibility and provide basic health guidance.</p>
-    <div class="actions">
-      <a href="YOUR_GITHUB_LINK_3" target="_blank">View Code ↗</a>
-      <button class="view-more" data-modal="modal3" type="button">View More</button>
-    </div>
-  </div>
-</div>
-
-<!-- CARD 4 -->
-
-<div class="card">
-  <h3>Mission 04 : Diwali Sales Analysis</h3>
-
-  <div class="mini">
-    <p>Data analytics project focused on customer behavior, sales trends, and business insights.</p>
-    <div class="actions">
-      <a href="YOUR_GITHUB_LINK_4" target="_blank">View Code ↗</a>
-      <button class="view-more" data-modal="modal4" type="button">View More</button>
-    </div>
-  </div>
-</div>
-
-<!-- CARD 5 -->
-
-<div class="card">
-  <h3>Mission 05 : Cafeteria Billing System</h3>
-
-  <div class="mini">
-    <p>C-based billing and management system with authentication, ordering, and invoice generation.</p>
-    <div class="actions">
-      <a href="YOUR_GITHUB_LINK_5" target="_blank">View Code ↗</a>
-      <button class="view-more" data-modal="modal5" type="button">View More</button>
-    </div>
-  </div>
-</div>
-
-<!-- CARD 6 -->
-
-<div class="card">
-  <h3>Mission 06 : Personal Flight Dashboard</h3>
-
-  <div class="mini">
-    <p>Interactive airport-control inspired portfolio showcasing projects, achievements, and technical journey.</p>
-    <div class="actions">
-      <a href="YOUR_GITHUB_LINK_7" target="_blank">View Code ↗</a>
-      <button class="view-more" data-modal="modal7" type="button">View More</button>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<!-- MODAL 1 -->
-
-<div class="modal" id="modal1">
-  <div class="modal-content modal-card">
-    <button class="modal-close" type="button">&times;</button>
-
-```
-<h2>Mission 01 : Identity Verification System</h2>
-
-<p>
-  A rule-based identity verification and document validation system designed
-  to verify submitted records and detect invalid or suspicious entries.
-  The project focuses on improving reliability and reducing manual
-  verification effort.
-</p>
-
-<p>
-  Validation rules are applied to ensure data consistency, authenticity,
-  and completeness before approval.
-</p>
-
-<p><b>Tech Stack:</b> Java, File Handling, Validation Logic</p>
-<p><a href="YOUR_GITHUB_LINK_1" target="_blank">View Code ↗</a></p>
-```
-
-  </div>
-</div>
-
-<!-- MODAL 2 -->
-
-<div class="modal" id="modal2">
-  <div class="modal-content modal-card">
-    <button class="modal-close" type="button">&times;</button>
-
-```
-<h2>Mission 02 : Fraud Net</h2>
-
-<p>
-  Fraud Net is a telecom fraud detection system that identifies suspicious
-  calling behavior using rule-based analysis and pattern recognition.
-</p>
-
-<p>
-  The system analyzes call records, detects unusual activity,
-  and flags potential fraud cases for investigation.
-</p>
-
-<p><b>Tech Stack:</b> C++, STL, Hash Maps, Data Analysis</p>
-<p><a href="YOUR_GITHUB_LINK_2" target="_blank">View Code ↗</a></p>
-```
-
-  </div>
-</div>
-
-<!-- MODAL 3 -->
-
-<div class="modal" id="modal3">
-  <div class="modal-content modal-card">
-    <button class="modal-close" type="button">&times;</button>
-
-```
-<h2>Mission 03 : Healthcare Assistant</h2>
-
-<p>
-  A healthcare support application aimed at improving accessibility
-  to basic health information and guidance.
-</p>
-
-<p>
-  The project focuses on providing a simple and user-friendly
-  interface for healthcare-related assistance.
-</p>
-
-<p><b>Tech Stack:</b> Python, User Interface Design</p>
-<p><a href="YOUR_GITHUB_LINK_3" target="_blank">View Code ↗</a></p>
-```
-
-  </div>
-</div>
-
-<!-- MODAL 4 -->
-
-<div class="modal" id="modal4">
-  <div class="modal-content modal-card">
-    <button class="modal-close" type="button">&times;</button>
-
-```
-<h2>Mission 04 : Diwali Sales Analysis</h2>
-
-<p>
-  Data analytics project focused on understanding customer purchasing
-  behavior and identifying sales trends from a Diwali sales dataset.
-</p>
-
-<p>
-  The analysis provides business insights through visualizations
-  and customer segmentation techniques.
-</p>
-
-<p><b>Tech Stack:</b> Python, Pandas, NumPy, Matplotlib, Power BI</p>
-<p><a href="YOUR_GITHUB_LINK_4" target="_blank">View Code ↗</a></p>
-```
-
-  </div>
-</div>
-
-<!-- MODAL 5 -->
-
-<div class="modal" id="modal5">
-  <div class="modal-content modal-card">
-    <button class="modal-close" type="button">&times;</button>
-
-```
-<h2>Mission 05 : Cafeteria Billing System</h2>
-
-<p>
-  A billing and management system developed in C for handling
-  cafeteria operations, customer orders, and invoice generation.
-</p>
-
-<p>
-  The system integrates authentication, menu management,
-  and billing functionalities.
-</p>
-
-<p><b>Tech Stack:</b> C Programming, File Handling</p>
-<p><a href="YOUR_GITHUB_LINK_5" target="_blank">View Code ↗</a></p>
-```
-
-  </div>
-</div>
-
-<!-- MODAL 6 -->
-
-<div class="modal" id="modal6">
-  <div class="modal-content modal-card">
-    <button class="modal-close" type="button">&times;</button>
-
-```
-<h2>Mission 06 : Personal Flight Dashboard</h2>
-
-<p>
-  An airport-control inspired developer portfolio showcasing
-  projects, certifications, education, and technical achievements.
-</p>
-
-<p>
-  The portfolio highlights the journey from Abu Dhabi, UAE to
-  Graphic Era University while presenting a professional software
-  development profile.
-</p>
-
-<p><b>Tech Stack:</b> HTML, CSS, JavaScript</p>
-<p><a href="YOUR_GITHUB_LINK_6" target="_blank">View Code ↗</a></p>
-```
-
-  </div>
-</div>
-
-<section id="timeline">
-  <div class="panel timeline-panel">
-
-```
-<h2 class="timeline-title">FLIGHT LOG</h2>
-
-<div class="strip">
-  <h3>Flight History</h3>
-  <div class="scroll-row timeline-experience"></div>
-</div>
-
-<div class="strip">
-  <h3>Mission Milestones</h3>
-  <div class="scroll-row timeline-achievements"></div>
-</div>
-```
-
-  </div>
-</section>
-
-
-<!-- EDUCATION -->
-<section id="education">
-  <h2 class="section-title">Flight Path</h2>
-
-  <div class="education-box">
-
-    <div class="education-item">
-      🇦🇪 School Education
-      <br>
-      Abu Dhabi, United Arab Emirates
+    <div class="modal" id="modal2">
+      <div class="modal-content modal-card">
+        <button class="modal-close" type="button">&times;</button>
+        <h2>Fraud Net – Telecom Fraud Detection</h2>
+        <p>A rule-based fraud detection system in C++ that analyses telecom call data using frequency maps, hash maps, and graph-based structures to detect anomalies like unusually high call durations or off-hours activity.</p>
+        <p>Processes large datasets efficiently using C++ STL containers — demonstrating how classical data structures solve real-world problems without ML.</p>
+        <p><b>Tech Stack:</b> C++, Data Structures, Hash Maps, STL, Algorithms</p>
+        <p><a href="https://github.com/Swastika23214/Fraud_Net" target="_blank">View Code ↗</a></p>
+      </div>
     </div>
 
-    <div class="education-item">
-      🎓 B.Tech – Computer Science & Engineering
-      <br>
-      Graphic Era Deemed University, Dehradun
-      <br>
-      CGPA: 7.2
+    <div class="modal" id="modal3">
+      <div class="modal-content modal-card">
+        <button class="modal-close" type="button">&times;</button>
+        <h2>Healthcare Assistant</h2>
+        <p>A Python CLI tool for daily health monitoring. Users log symptoms, meals, medications, and exercise — the system generates structured daily health reports stored as text files.</p>
+        <p>Focuses on clean file I/O architecture, data validation, and user-friendly prompts.</p>
+        <p><b>Tech Stack:</b> Python, File I/O, Data Processing, OOP, CLI</p>
+        <p><a href="https://github.com/Swastika23214/Healthcare_Assistant" target="_blank">View Code ↗</a></p>
+      </div>
     </div>
 
-    <div class="education-item">
-      ☁️ Professional Development
-      <br>
-      AWS Cloud Practitioner
-      <br>
-      15+ AWS Certifications
+    <div class="modal" id="modal4">
+      <div class="modal-content modal-card">
+        <button class="modal-close" type="button">&times;</button>
+        <h2>Diwali Sales Data Analysis</h2>
+        <p>An EDA project on Diwali season sales data uncovering purchasing trends across demographics — age groups, gender, states, and product categories — using Python's data science stack.</p>
+        <p>Includes data cleaning, null handling, groupby aggregations, and multiple visualisations (bar charts, count plots, heatmaps).</p>
+        <p><b>Tech Stack:</b> Python, Pandas, Matplotlib, Seaborn, EDA, Jupyter</p>
+        <p><a href="https://github.com/rids5/Diwali-Sales-Data-Analysis" target="_blank">View Code ↗</a></p>
+      </div>
     </div>
 
-    <div class="education-item">
-      🚀 Beyond Academics
-      <br>
-      Software Projects • Hackathons
-      <br>
-      Data Analytics • Cloud Computing
-      <br>
-      Internships • Problem Solving
+  </section>
+
+  <!-- EXPERIENCE & ACHIEVEMENTS -->
+  <section id="timeline">
+    <div class="panel timeline-panel">
+      <h2 class="timeline-title">EXPERIENCE & ACHIEVEMENTS</h2>
+      <div class="strip">
+        <h3>Experience</h3>
+        <div class="scroll-row timeline-experience"></div>
+      </div>
+      <div class="strip">
+        <h3>Achievements</h3>
+        <div class="scroll-row timeline-achievements"></div>
+      </div>
     </div>
+  </section>
 
-  </div>
-</section>
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="education-box">
+      <div class="education-item uae-edu">🇦🇪 10th – 85%<br>CBSE, Abu Dhabi, UAE</div>
+      <div class="education-item uae-edu">🇦🇪 12th – Science (PCM+CS)<br>CBSE, Abu Dhabi, UAE</div>
+      <div class="education-item">B.Tech – Computer Science<br>GPA 7.2, Graphic Era University, Dehradun</div>
+      <div class="education-item">Extras: Content Writing, Power BI, AWS Cloud, UI/UX Design, Data Analytics</div>
+    </div>
+  </section>
 
-<!-- FLIGHT DOCUMENTS -->
+  <!-- RESUME -->
+  <section id="resume">
+    <h2 class="section-title glow-text">Resume</h2>
+    <div class="resume-box">
+      <p class="resume-copy">A snapshot of my technical work, cloud certifications, projects, and internship experience.</p>
+      <a href="assets/Resume_Riddhi.pdf" download class="resume-btn">Download Resume &rarr;</a>
+    </div>
+  </section>
 
-<section id="resume">
-  <h2 class="section-title glow-text">Flight Documents</h2>
-
-  <div class="resume-box">
-    <p class="resume-copy">
-      My technical profile showcasing projects, internships, AWS certifications,
-      skills, and academic achievements throughout my journey from Abu Dhabi to
-      Graphic Era University.
-    </p>
-
-```
-<a href="Resume_Riddhi.pdf" download class="resume-btn">
-  Download Resume →
-</a>
-```
-
-  </div>
-</section>
-
-<!-- COMMUNICATIONS TOWER -->
-
-<section id="contact">
-  <h2 class="section-title glow-text">Communications Tower</h2>
-
-  <div class="contact-box">
-
-```
-<h3>Open Communication Channel</h3>
-
-<div class="links">
-  <a href="https://github.com/rids5" target="_blank">GitHub</a>
-
-  <a href="https://www.linkedin.com/in/riddhi-sibal5/" target="_blank">
-    LinkedIn
-  </a>
-
-  <a href="mailto:sibal.riddhi@gmail.com">
-    Email
-  </a>
-</div>
-
-<p>
-  Interested in collaborating, discussing projects, internship opportunities,
-  or innovative ideas? Feel free to connect.
-</p>
-
-<div class="contact-terminal">
-  <textarea
-    placeholder="Transmit your message..."
-    class="contact-input"
-    id="contact-message"
-  ></textarea>
-
-  <a id="sendBtn" class="contact-btn">
-    Send Transmission
-  </a>
-
-  <a
-    class="contact-btn gmail-btn"
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=sibal.riddhi@gmail.com"
-    target="_blank"
-  >
-    Open Gmail →
-  </a>
-</div>
-
-<p class="contact-email">
-  Direct Contact:
-  <a href="mailto:sibal.riddhi@gmail.com">
-    sibal.riddhi@gmail.com
-  </a>
-</p>
-```
-
-  </div>
-</section>
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title glow-text">Contact</h2>
+    <div class="contact-box">
+      <h3>Connect with me</h3>
+      <div class="links">
+        <a href="https://github.com/rids5" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/riddhi-sibal5/" target="_blank">LinkedIn</a>
+        <a href="mailto:sibal.riddhi@gmail.com">Email</a>
+      </div>
+      <p>Open to internships, collaborations, and interesting conversations — feel free to reach out!</p>
+      <div class="contact-terminal">
+        <textarea placeholder="Write your message..." class="contact-input" id="contact-message"></textarea>
+        <a id="sendBtn" class="contact-btn">Send</a>
+        <a class="contact-btn gmail-btn"
+           href="https://mail.google.com/mail/?view=cm&fs=1&to=sibal.riddhi@gmail.com"
+           target="_blank">Open Gmail &rarr;</a>
+      </div>
+      <p class="contact-email">
+        Or email me directly:
+        <a href="mailto:sibal.riddhi@gmail.com">sibal.riddhi@gmail.com</a>
+      </p>
+    </div>
+  </section>
 
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.160/build/three.min.js"></script>
-
-<script src="script.js" defer></script>
+<script src="js/script.js" defer></script>
 
 </body>
 </html>
